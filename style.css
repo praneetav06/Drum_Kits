@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #c77dff;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 5px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+}
+
+.container {
+  text-align: center;
+}
+
+.btn {
+  padding: 30px 50px;
+  background-color: #fff;
+  margin: 10px;
+  border: none;
+  font-size: 30px;
+  min-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  background-image: url("images/tom.png");
+  background-size: cover;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.btn:active {
+  background-size: 111%;
+}
